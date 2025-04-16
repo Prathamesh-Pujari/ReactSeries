@@ -1,10 +1,13 @@
-import CounterApp from "./Component/CounterApp";
+import React from "react";
+import "./App.css";
+import TitleCard from "./Component/TitleCard";
 
 function App() {
   return (
     <>
-      <h1>React Series Start</h1>
-      <CounterApp />
+      <div>
+        <TitleCard />
+      </div>
     </>
   );
 }
